@@ -1,0 +1,310 @@
+/*PÁGINA INICIAL*/
+.index{
+    background-image: url(fundo.jpg);
+    background-size: 1800px;
+    max-height: 500px;
+   /* background-color: #e4dee2;*/
+}
+
+.exteriorImg{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+    border: 4px ridge #372f30;
+    border-radius: 30%;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #372f30;
+    margin-bottom: 100%;
+    display: flex;
+}
+
+.titulo{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #729aa8;
+    padding: 0.5%;
+}
+
+
+.logo{
+    background-color: #ffffff;
+    border-radius: 30%;
+    padding: 2%;
+    border: 3px groove #372f30;
+}
+
+
+.apresentacao{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+    text-align: center;
+    border-radius: 20%;
+    margin-left: 10%;
+    border: 3px ridge #372f30;
+
+}
+
+/*MENU*/
+.menu{
+    background-image: url(fundo.jpg);
+    margin: 10px;
+    background-size: 1800px;
+    max-height: 500px;
+}
+
+.menuImg{
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+
+.comida{
+    margin: 2%;
+    background-color: #ccc6b7;
+    border: 3px ridge#372f30;
+    display: flex;
+}
+
+.textoComida{
+    margin: 5%;
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    color: #372f30;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*SOBRE NÓS*/
+
+.sobreNos{
+    background-image: url(fundo.jpg);
+    background-size: 1800px;
+    max-height: 500px;
+}
+
+
+.interiorImg{
+    border: 4px ridge #372f30;
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobreCaixa{
+    border: 4px ridge #372f30;
+    background-color: #ccc6b7;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+    color: #372f30;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.interiorImg{
+    max-width: 550px;
+    max-height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sobre{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+
+}
+
+/*CONTATO*/
+.contato{
+    background-image: url(fundo.jpg);
+    background-size: 1800px;
+    max-height: 500px;
+}
+
+.textoContato{
+    text-align: center;
+    font-size: 35px;
+    color: #372f30;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 30%;
+
+}
+
+/*FORMULÁRIO*/
+#area
+{
+  position:relative;
+  left:37%;
+  top:29%;
+  width:320px;
+  height:270px;
+  background-color: #a9c4ce;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+fieldset
+{
+  width:300px;
+  height:250px;
+}
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+
+#formulario input.campo_nome
+{
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.campo_telefone
+{
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario textarea.msg
+{
+  position:absolute;
+  width: 70%;
+  height: 30%;
+}
+
+#formulario input.btn_submit
+{
+  border-style: outset;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:white;
+}
+
+
+/*MODIFICAÇÕES GERAIS*/
+
+.faixa{
+    width: 100%;
+    background-color: #729aa8;
+
+}
+
+.titulo2{
+    text-align: center;
+}
+
+h1{
+    font-size: 75px;
+    font-style: italic;
+    color: #372f30;
+}
+
+h2{
+    font-size: 35px;
+    color: #372f30;
+}
+
+
+
+
+a:any-link{
+    text-decoration: none;
+    color: #3b3420;
+    background-color: white;
+    border: 4px groove #372f30;
+    border-right: 40px;
+    border-left: 40px;
+    border-radius: 50%;
+    padding: 2%;
+    display: block;
+    margin-right: 10%;
+}
+
+a:active{
+    text-decoration: none;
+    color: #c5946d;
+    border: 4px inset #c5946d;
+    border-right: 40px;
+    border-left: 40px;
+    border-radius: 30%;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
